@@ -1,6 +1,7 @@
 def square_array(array)
-array.each do
-  array.map {|x| x**3 }
+new = []
+array.each do |x|
+  new << {|x| ** 2}
 end
 
 # your code here
